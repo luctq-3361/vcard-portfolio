@@ -1,0 +1,11 @@
+{
+    "hello": "Giới thiệu",
+    "goodbye": "Tạm biệt",
+    "pageTitles": {
+        "about": "Giới thiệu",
+        "resume": "Kinh nghiệm",
+        "portfolio": "Dự án",
+        "blog": "Blog",
+        "contact": "Liên hệ"
+    }
+}

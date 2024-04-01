@@ -89,7 +89,7 @@ const { data: services } = await useFetch('/api/services')
             </h4>
 
             <div class="testimonials-text">
-              <p>{{ locale === 'en' ? testimonial.content?.en : testimonial.content?.tr }}</p>
+              <p>{{ locale === 'en' ? testimonial.content?.en : testimonial.content?.vi}}</p>
             </div>
           </div>
         </li>

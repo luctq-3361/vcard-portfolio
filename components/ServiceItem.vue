@@ -25,7 +25,7 @@ const { locale } = useI18n({ useScope: 'global' })
       </h4>
 
       <p class="service-item-text">
-        {{ locale === 'en' ? service.description?.en : service.description?.tr }}
+        {{ locale === 'en' ? service.description?.en : service.description?.vi}}
       </p>
     </div>
   </li>

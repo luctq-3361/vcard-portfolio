@@ -10,16 +10,16 @@ function toggleMenu() {
   <aside class="sidebar" :class="{ active: isOpen }">
     <div class="sidebar-info">
       <figure class="avatar-box">
-        <img src="/images/my-avatar.png" alt="Azad Furkan ŞAKAR" width="80">
+        <img src="/images/my-avatar.png" alt="Tran Quoc Luc" width="80">
       </figure>
 
       <div class="info-content">
-        <h1 class="name" title="Azad Furkan ŞAKAR">
-          Azad Furkan ŞAKAR
+        <h1 class="name" title="Tran Quoc Luc">
+          Tran Quoc Luc
         </h1>
 
         <p class="title text-center xl:block flex items-center justify-center gap-1">
-          <span class="xl:after:content-[''] after:content-[',']">Civil Engineer</span>
+          <span class="xl:after:content-[''] after:content-[',']">Fullstack Engineer</span>
           <span>Web developer</span>
         </p>
       </div>
@@ -45,7 +45,7 @@ function toggleMenu() {
               Email
             </p>
 
-            <a href="mailto:info@afsakar.com" class="contact-link">info@afsakar.com</a>
+            <a href="mailto:tran.quoc.luc.dev@gmail.com" tooltip="tran.quoc.luc.dev@gmail.com" class="contact-link">tran.quoc.luc.dev@gmail.com</a>
           </div>
         </li>
 
@@ -59,7 +59,7 @@ function toggleMenu() {
               Github
             </p>
 
-            <a href="https://github.com/afsakar" class="contact-link" target="_blank">afsakar</a>
+            <a href="https://github.com/luctq" class="contact-link" target="_blank">luctq</a>
           </div>
         </li>
 
@@ -73,7 +73,7 @@ function toggleMenu() {
               Linkedin
             </p>
 
-            <a href="https://tr.linkedin.com/in/afsakar" class="contact-link" target="_blank">Azad Furkan ŞAKAR</a>
+            <a href="https://www.linkedin.com/in/luctq" class="contact-link" target="_blank">Tran Quoc Luc</a>
           </div>
         </li>
 
@@ -87,7 +87,7 @@ function toggleMenu() {
               Location
             </p>
 
-            <address>Diyarbakır, Turkey</address>
+            <address>Ha Noi, Viet Nam</address>
           </div>
         </li>
       </ul>
@@ -96,13 +96,13 @@ function toggleMenu() {
 
       <ul class="social-list">
         <li class="social-item">
-          <NuxtLink to="https://www.twitter.com/afsakar" class="social-link" target="_blank">
+          <NuxtLink to="https://www.twitter.com/luctq" class="social-link" target="_blank">
             <ion-icon name="logo-twitter" />
           </NuxtLink>
         </li>
 
         <li class="social-item">
-          <NuxtLink to="https://www.instagram.com/afsakar" class="social-link" target="_blank">
+          <NuxtLink to="https://www.instagram.com/luctq" class="social-link" target="_blank">
             <ion-icon name="logo-instagram" />
           </NuxtLink>
         </li>

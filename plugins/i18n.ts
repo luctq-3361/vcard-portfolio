@@ -7,7 +7,7 @@ export default defineNuxtPlugin(() => {
     inheritLocale: false,
     globalInjection: true,
     localeDir: 'locales',
-    fallbackLocale: useLocaleStore().getLocale || 'tr',
-    locale: useLocaleStore().getLocale || 'tr',
+    fallbackLocale: useLocaleStore().getLocale || 'en',
+    locale: useLocaleStore().getLocale || 'en',
   })
 })

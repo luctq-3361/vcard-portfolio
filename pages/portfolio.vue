@@ -59,7 +59,7 @@ function closeItem() {
 
         <li v-for="category in categories" :key="category.id" class="filter-item" @click="changeFilter(category.id)">
           <button :class="{ active: activeCategory === category.id }">
-            {{ locale === 'en' ? category.title?.en : category.title?.tr }}
+            {{ locale === 'en' ? category.title?.en : category.title?.vi}}
           </button>
         </li>
       </ul>
@@ -84,7 +84,7 @@ function closeItem() {
 
           <li v-for="category in categories" :key="category.id" class="select-item">
             <button @click="changeFilter(category.id)">
-              {{ locale === 'en' ? category.title?.en : category.title?.tr }}
+              {{ locale === 'en' ? category.title?.en : category.title?.vi}}
             </button>
           </li>
         </ul>
@@ -104,7 +104,7 @@ function closeItem() {
 
             <h3 class="project-title">{{ project.title }}</h3>
 
-            <p class="project-category">{{ locale === 'en' ? project.category.title?.en : project.category.title?.tr }}</p>
+            <p class="project-category">{{ locale === 'en' ? project.category.title?.en : project.category.title?.vi}}</p>
 
           </a>
         </li>
@@ -130,7 +130,7 @@ function closeItem() {
             </h4>
 
             <small class="flex items-center justify-start gap-2 text-gray-500">
-              <span>14 June, 2021</span> | <span>{{ locale === 'en' ? activeItem.category?.title?.en : activeItem.category?.title?.tr }}</span> | <NuxtLink to="#">View Project</NuxtLink>
+              <span>14 June, 2021</span> | <span>{{ locale === 'en' ? activeItem.category?.title?.en : activeItem.category?.title?.vi}}</span> | <NuxtLink to="#">View Project</NuxtLink>
             </small>
 
             <p class="text-justify" v-html="locale === 'en' ? activeItem.content?.en : activeItem.content?.tr" />

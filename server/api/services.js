@@ -7,7 +7,7 @@ export default defineEventHandler(() => {
       title: 'Laravel',
       description: {
         en: 'I build modern and advanced websites and applications with Laravel, the PHP framework.',
-        tr: 'PHP frameworkü olan Laravel ile modern ve gelişmiş web siteleri ve uygulamaları yapıyorum.',
+        vi: 'Tôi xây dựng các trang web và ứng dụng hiện đại và nâng cao bằng Laravel, khung PHP.',
       },
       icon: 'logo-laravel',
       image: null,
@@ -17,7 +17,7 @@ export default defineEventHandler(() => {
       title: 'Vue JS',
       description: {
         en: 'I use VueJS, a modern JavaScript framework, while making dynamic and static websites and applications.',
-        tr: 'Dinamik ve statik web site ve uygulamaları yaparken modern JavaScript framework olan VueJS kullanıyorum.',
+        vi: 'Tôi sử dụng VueJS, một khung JavaScript hiện đại, đồng thời tạo các trang web và ứng dụng động và tĩnh.',
       },
       icon: 'logo-vue',
       image: null,

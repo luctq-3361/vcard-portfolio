@@ -34,6 +34,12 @@
           {{ $t('pageTitles.contact') }}
         </NuxtLink>
       </li>
+
+      <li>
+        <button style="color: white;">
+          <ion-icon name="moon" />
+        </button>
+      </li>
     </ul>
   </nav>
 </template>

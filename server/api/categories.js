@@ -6,21 +6,21 @@ export default defineEventHandler(() => {
       id: 1,
       title: {
         en: 'Web Development',
-        tr: 'Web Geliştirme',
+        vi: 'Phát triển Web',
       },
     },
     {
       id: 2,
       title: {
         en: 'Application',
-        tr: 'Uygulama',
+        vi: 'Ứng dụng',
       },
     },
     {
       id: 3,
       title: {
         en: 'Web Design',
-        tr: 'Web Tasarım',
+        vi: 'Thiết kế Web',
       },
     },
   ]
